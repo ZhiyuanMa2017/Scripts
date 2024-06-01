@@ -16,6 +16,9 @@ function isAd(item) {
         let n = item.items.length
         for (let i = 0; i < n; i++) {
             let cur = item.items[i];
+            if (cur.data && cur.data.card_type && cur.data.card_type == 22) {
+                return true;
+            }
             if (cur.data && cur.data.title_extra_text && cur.data.title_extra_text == "\u5e7f\u544a") {
                 return true;
             }
