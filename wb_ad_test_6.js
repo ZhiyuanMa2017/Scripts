@@ -5,7 +5,9 @@ let obj = JSON.parse(body);
 if (obj.items && obj.items.length > 0) {
     let i = obj.items.length;
     while (i--) {
-        if (isAd(obj.items[i])) {
+        if(obj.items[i].data && obj.items[i].data.mblogtype && obj.items[i].data.mblogtype == 1) {
+            obj.items.splice(i, 1);
+        }else if (isAd(obj.items[i])) {
             obj.items.splice(i, 1);
         }
     }
