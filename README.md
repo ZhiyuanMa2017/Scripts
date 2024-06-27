@@ -27,6 +27,8 @@ Weibo去广告
 
 ^https://bootpreload.uve.weibo.com/v1/ad/preload url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_3.js
 
+^https://bootpreload.uve.weibo.com/v2/ad/preload url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_3.js
+
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
