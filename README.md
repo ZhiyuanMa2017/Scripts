@@ -11,9 +11,7 @@ Weibo去广告
 
 ^https://api.weibo.cn/2/searchall url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_6.js
 
-^https://api.weibo.cn/2/searchall url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js
-
-^https://api.weibo.cn/2/statuses/extend  url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_4.js
+^https://api.weibo.cn/2/statuses/extend url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_4.js
 
 ^https://api.weibo.cn/2/statuses/repost_timeline url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_5.js
 
@@ -21,9 +19,9 @@ Weibo去广告
 
 ^https://api.weibo.cn/2/ad/weibointl url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test.js
 
-^https://api.weibo.cn/2/statuses/container_timeline url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js
+[//]: # (^https://api.weibo.cn/2/statuses/container_timeline url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js)
 
-^https://api.weibo.cn/2/profile/container_timeline url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js
+[//]: # (^https://api.weibo.cn/2/profile/container_timeline url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js)
 
 ^https://bootpreload.uve.weibo.com/v1/ad/preload url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_3.js
 
