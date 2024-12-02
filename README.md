@@ -41,5 +41,6 @@ hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 5. Refresh the page and find `"id:"` in the json response
 6. Copy the id and paste it in the following url: https://i.instagram.com/api/v1/users/{id}/info/
 7. Visit the url using the same user agent as before
-8. Search for `"hd_profile_pic_url_info":` in the json response
+8. Search for `"hd_profile_pic_url_info":` in the json response  
+
 source: https://stackoverflow.com/a/61797158
