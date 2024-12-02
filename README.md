@@ -31,3 +31,15 @@ Weibo去广告
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
+
+### Instagram profile picture HD url
+1. Log in to your instagram account on chrome
+2. Open the developer tools by pressing `F12`
+3. Visit https://www.instagram.com/api/v1/users/web_profile_info/?username={username}
+4. Go to Network conditions and change the user agent to
+>Mozilla/5.0 (Linux; Android 9; GM1903 Build/PKQ1.190110.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36 Instagram 103.1.0.15.119 Android (28/9; 420dpi; 1080x2260; OnePlus; GM1903; OnePlus7; qcom; sv_SE; 164094539)
+5. Refresh the page and find `"id:"` in the json response
+6. Copy the id and paste it in the following url: https://i.instagram.com/api/v1/users/{id}/info/
+7. Visit the url using the same user agent as before
+8. Search for `"hd_profile_pic_url_info":` in the json response
+source: https://stackoverflow.com/a/61797158
