@@ -12,6 +12,8 @@ Weibo去广告
 
 ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
 
+^https://api.weibo.cn/2/statuses/container_detail_comment url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_8.js
+
 ^https://api.weibo.cn/2/profile/container_timeline url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js
 
 ^https://api.weibo.cn/2/searchall url script-response-body https://raw.githubusercontent.com/ZhiyuanMa2017/Scripts/master/wb_ad_test_2.js
